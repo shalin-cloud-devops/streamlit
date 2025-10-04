@@ -1,6 +1,3 @@
-# Header, subheader, caption, table with pandas, csv file, create link
-# create email, sidebar, markdown, display a code, quote, image, success, warning, failure
-
 import streamlit as st
 import pandas as pd
 import time as t
