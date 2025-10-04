@@ -7,7 +7,7 @@ import time as t
 
 st.set_page_config(
     page_title="Senior DevOps Engineer Resume",
-    page_icon="🚀",
+    page_icon="gear",
     layout="wide"
 )
 
