@@ -98,6 +98,7 @@ with left_panel.expander("Cloud & IaC"):
     st.markdown("""
     - Ansible
     - Terraform
+    - AWS
 
 """)
 
