@@ -130,8 +130,9 @@ Bachelor’s in Mechanical Engineering
 left_panel.markdown("""
 #### Contact
 [LinkedIn](https://www.linkedin.com/in/akbar-shalin/) 
-<akbarshalin100@gmail.com>
+                    
 [Streamlit Profile](https://shalin-resume.streamlit.app/)
                     
-*Mobile* - ***+91 8951252205***
+***+91 8951252205***
+<akbarshalin100@gmail.com>
 """)
