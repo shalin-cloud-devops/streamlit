@@ -13,7 +13,7 @@ st.set_page_config(
 
 st.subheader("Summary")
 st.markdown("""
-            
+
 Senior DevOps Engineer with 14+ years of experience, including over a year in New Zealand, building scalable infrastructure
 and automated deployment pipelines for global financial institutions. Expert in CI/CD, SRE, cloud architecture, and
 automation. Proven track record of optimizing performance and mentoring teams in DevOps best practices.
@@ -84,41 +84,54 @@ banking systems.
 """)
 
 left_panel = st.sidebar
-left_panel.subheader("Skills")
+left_panel.markdown("#### Skills")
+with left_panel.expander("DevOps"):
+    st.markdown("""
+    - UrbanCode Deploy
+    - Tekton
+    - Harness
+    - Git
+    - SRE
+    - Jenkins
+""")
+with left_panel.expander("Cloud & IaC"):
+    st.markdown("""
+    - Ansible
+    - Terraform
+
+""")
+
+with left_panel.expander("Scheduling"):
+    st.markdown("""
+    - Control-M
+    - Autosys
+    - UCD Scheduler
+    - Cron Jobs
+
+""")
+with left_panel.expander("Middleware & App Servers"):
+    st.markdown("""
+    - NDM(IBM Connect: Direct)
+    - Tomcat
+    - WebLogic
+""")
+with left_panel.expander("Certifications"):
+    st.markdown("""
+    - AWS Solution Architect
+    - IBM certified Connect Direct Administrator
+    - CFTP certified
+""")
+
 left_panel.markdown("""
-- #### DevOps
-  - UrbanCode Deploy
-  - Tekton 
-  - Harness
-  - Git
-  - SRE
-  - Jenkins
-- #### IaC
-  - Ansible
-  - Terraform
-- #### Cloud
-  - AWS   
-- #### Scheduling
-  - Control-M  
-  - Autosys 
-  - UCD Scheduler 
-  - Cron Jobs
-- #### Middleware
-  - NDM (IBM Connect:Direct)
-- #### App Servers
-  - Tomcat
-  - WebLogic                      
-- #### Soft Skills
-  - Team Management 
-  - Agile Methodologies
----
 #### Education
 Bachelor’s in Mechanical Engineering
 """)
 
-st.subheader("Contact")
-st.markdown("""
-[LinkedIn](https://www.linkedin.com/in/akbar-shalin/) | <akbarshalin100@gmail.com>  
-
-[Streamlit Profile](https://shalin-resume.streamlit.app/) | **+91 8951252205**
+left_panel.markdown("""
+#### Contact
+[LinkedIn](https://www.linkedin.com/in/akbar-shalin/) 
+<akbarshalin100@gmail.com>
+[Streamlit Profile](https://shalin-resume.streamlit.app/)
+                    
+*Mobile* - ***+91 8951252205***
 """)
