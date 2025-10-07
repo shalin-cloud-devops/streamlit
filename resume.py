@@ -11,6 +11,9 @@ st.set_page_config(
     layout="wide"
 )
 
+st.markdown("<h2 style='text-align: center;'>Senior DevOps Engineer</h2>",
+            unsafe_allow_html=True)
+
 st.subheader("Summary")
 st.markdown("""
 
