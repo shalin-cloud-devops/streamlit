@@ -11,7 +11,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.markdown("<h2 style='text-align: center;'>Senior DevOps Engineer</h2>",
+st.markdown("""<h2 style='text-align: center;'>Senior DevOps Engineer </h2>""",
+            # <h4 style='text-align: center;' >  </h4>""",
             unsafe_allow_html=True)
 
 st.subheader("Summary")
@@ -87,6 +88,8 @@ banking systems.
 """)
 
 left_panel = st.sidebar
+left_panel.markdown(
+    "<h1 style='color: #1E90FF;'>Akbar Shalin KM</h1>", unsafe_allow_html=True)
 left_panel.markdown("#### Skills")
 with left_panel.expander("DevOps"):
     st.markdown("""
